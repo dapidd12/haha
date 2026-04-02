@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tambahan untuk memastikan background full layar */
+html, body, #root {
+  min-height: 100vh;
+  margin: 0;
+  background-color: #030712;
+}
